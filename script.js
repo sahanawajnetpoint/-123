@@ -59,13 +59,14 @@ const DATA = {
 };
 
 // পোস্ট (নতুন লেখা এখানে যোগ করবেন)
-const POSTS = [{
-  id: 102,
-  category: "kobita",
-  title: "নীরব বিকেল",
-  author: "সানু সরকার",
-  date: "১৩ জানুয়ারি ২০২৬",
-  content: `নীরব বিকেলের কোলে বসে
+const POSTS = [
+  {
+    id: 102,
+    category: "kobita",
+    title: "নীরব বিকেল",
+    author: "সানু সরকার",
+    date: "১৩ জানুয়ারি ২০২৬",
+    content: `নীরব বিকেলের কোলে বসে
 শুনেছি বাতাসের গান,
 পাতার ফাঁকে আলো নেমে
 লিখে যায় নীরব প্রণাম।  
@@ -84,7 +85,9 @@ const POSTS = [{
 ভালোবাসি স্বপ্নগুলো,
 নীরব বিকেল বলে যায়—
 শেষ নয়, শুরু হলো।`
-},
+  },
+];
+
 
   {
     id: 1,
@@ -268,4 +271,5 @@ function escapeHTML(str){
 
 renderPosts();
 renderSidebars();
+
 
